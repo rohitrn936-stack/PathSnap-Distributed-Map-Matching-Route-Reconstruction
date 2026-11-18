@@ -1,3 +1,6 @@
+datasets/
+.freebuff/
+Main Guidelines.pdf/
 **/.venv/
 **/__pycache__/
 **/.pytest_cache/
