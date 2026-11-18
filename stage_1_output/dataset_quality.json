@@ -1,0 +1,9 @@
+{
+  "missing_coords": 0,
+  "invalid_coords": 0,
+  "duplicate_nodes": 34,
+  "invalid_arc_refs": 0,
+  "self_loops": 22,
+  "duplicate_arcs": 1944319,
+  "route_gaps": 0
+}

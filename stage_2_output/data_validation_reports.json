@@ -1,0 +1,722 @@
+[
+  {
+    "trip_id": "00000001",
+    "track_invalid": 0,
+    "arc_invalid_refs": 6,
+    "arc_self_loops": 0,
+    "arc_duplicates": 292,
+    "route_invalid_refs": 168,
+    "route_disconnected": 505
+  },
+  {
+    "trip_id": "00000002",
+    "track_invalid": 0,
+    "arc_invalid_refs": 6,
+    "arc_self_loops": 0,
+    "arc_duplicates": 0,
+    "route_invalid_refs": 146,
+    "route_disconnected": 259
+  },
+  {
+    "trip_id": "00000003",
+    "track_invalid": 0,
+    "arc_invalid_refs": 7,
+    "arc_self_loops": 0,
+    "arc_duplicates": 6,
+    "route_invalid_refs": 26,
+    "route_disconnected": 76
+  },
+  {
+    "trip_id": "00000004",
+    "track_invalid": 0,
+    "arc_invalid_refs": 4,
+    "arc_self_loops": 0,
+    "arc_duplicates": 5,
+    "route_invalid_refs": 117,
+    "route_disconnected": 314
+  },
+  {
+    "trip_id": "00000005",
+    "track_invalid": 0,
+    "arc_invalid_refs": 1,
+    "arc_self_loops": 0,
+    "arc_duplicates": 0,
+    "route_invalid_refs": 1,
+    "route_disconnected": 85
+  },
+  {
+    "trip_id": "00000006",
+    "track_invalid": 0,
+    "arc_invalid_refs": 4,
+    "arc_self_loops": 0,
+    "arc_duplicates": 0,
+    "route_invalid_refs": 42,
+    "route_disconnected": 256
+  },
+  {
+    "trip_id": "00000008",
+    "track_invalid": 0,
+    "arc_invalid_refs": 6,
+    "arc_self_loops": 0,
+    "arc_duplicates": 12,
+    "route_invalid_refs": 79,
+    "route_disconnected": 171
+  },
+  {
+    "trip_id": "00000010",
+    "track_invalid": 0,
+    "arc_invalid_refs": 2,
+    "arc_self_loops": 0,
+    "arc_duplicates": 7,
+    "route_invalid_refs": 58,
+    "route_disconnected": 203
+  },
+  {
+    "trip_id": "00000011",
+    "track_invalid": 0,
+    "arc_invalid_refs": 6,
+    "arc_self_loops": 0,
+    "arc_duplicates": 0,
+    "route_invalid_refs": 8,
+    "route_disconnected": 547
+  },
+  {
+    "trip_id": "00000012",
+    "track_invalid": 0,
+    "arc_invalid_refs": 2,
+    "arc_self_loops": 0,
+    "arc_duplicates": 0,
+    "route_invalid_refs": 27,
+    "route_disconnected": 201
+  },
+  {
+    "trip_id": "00000013",
+    "track_invalid": 0,
+    "arc_invalid_refs": 4,
+    "arc_self_loops": 2,
+    "arc_duplicates": 129,
+    "route_invalid_refs": 426,
+    "route_disconnected": 759
+  },
+  {
+    "trip_id": "00000014",
+    "track_invalid": 0,
+    "arc_invalid_refs": 6,
+    "arc_self_loops": 0,
+    "arc_duplicates": 2,
+    "route_invalid_refs": 51,
+    "route_disconnected": 163
+  },
+  {
+    "trip_id": "00000016",
+    "track_invalid": 0,
+    "arc_invalid_refs": 2,
+    "arc_self_loops": 0,
+    "arc_duplicates": 1,
+    "route_invalid_refs": 67,
+    "route_disconnected": 198
+  },
+  {
+    "trip_id": "00000018",
+    "track_invalid": 0,
+    "arc_invalid_refs": 4,
+    "arc_self_loops": 0,
+    "arc_duplicates": 0,
+    "route_invalid_refs": 54,
+    "route_disconnected": 162
+  },
+  {
+    "trip_id": "00000019",
+    "track_invalid": 0,
+    "arc_invalid_refs": 2,
+    "arc_self_loops": 0,
+    "arc_duplicates": 86,
+    "route_invalid_refs": 340,
+    "route_disconnected": 542
+  },
+  {
+    "trip_id": "00000020",
+    "track_invalid": 0,
+    "arc_invalid_refs": 2,
+    "arc_self_loops": 0,
+    "arc_duplicates": 0,
+    "route_invalid_refs": 77,
+    "route_disconnected": 141
+  },
+  {
+    "trip_id": "00000021",
+    "track_invalid": 0,
+    "arc_invalid_refs": 2,
+    "arc_self_loops": 0,
+    "arc_duplicates": 0,
+    "route_invalid_refs": 33,
+    "route_disconnected": 274
+  },
+  {
+    "trip_id": "00000022",
+    "track_invalid": 0,
+    "arc_invalid_refs": 1,
+    "arc_self_loops": 0,
+    "arc_duplicates": 4,
+    "route_invalid_refs": 172,
+    "route_disconnected": 370
+  },
+  {
+    "trip_id": "00000024",
+    "track_invalid": 0,
+    "arc_invalid_refs": 5,
+    "arc_self_loops": 2,
+    "arc_duplicates": 102,
+    "route_invalid_refs": 128,
+    "route_disconnected": 242
+  },
+  {
+    "trip_id": "00000025",
+    "track_invalid": 0,
+    "arc_invalid_refs": 2,
+    "arc_self_loops": 0,
+    "arc_duplicates": 128,
+    "route_invalid_refs": 72,
+    "route_disconnected": 276
+  },
+  {
+    "trip_id": "00000026",
+    "track_invalid": 0,
+    "arc_invalid_refs": 8,
+    "arc_self_loops": 0,
+    "arc_duplicates": 2,
+    "route_invalid_refs": 61,
+    "route_disconnected": 190
+  },
+  {
+    "trip_id": "00000027",
+    "track_invalid": 0,
+    "arc_invalid_refs": 4,
+    "arc_self_loops": 0,
+    "arc_duplicates": 0,
+    "route_invalid_refs": 16,
+    "route_disconnected": 135
+  },
+  {
+    "trip_id": "00000028",
+    "track_invalid": 0,
+    "arc_invalid_refs": 4,
+    "arc_self_loops": 0,
+    "arc_duplicates": 8,
+    "route_invalid_refs": 161,
+    "route_disconnected": 608
+  },
+  {
+    "trip_id": "00000029",
+    "track_invalid": 0,
+    "arc_invalid_refs": 2,
+    "arc_self_loops": 0,
+    "arc_duplicates": 9,
+    "route_invalid_refs": 50,
+    "route_disconnected": 200
+  },
+  {
+    "trip_id": "00000031",
+    "track_invalid": 0,
+    "arc_invalid_refs": 4,
+    "arc_self_loops": 0,
+    "arc_duplicates": 4,
+    "route_invalid_refs": 177,
+    "route_disconnected": 417
+  },
+  {
+    "trip_id": "00000032",
+    "track_invalid": 0,
+    "arc_invalid_refs": 2,
+    "arc_self_loops": 0,
+    "arc_duplicates": 80,
+    "route_invalid_refs": 297,
+    "route_disconnected": 727
+  },
+  {
+    "trip_id": "00000033",
+    "track_invalid": 0,
+    "arc_invalid_refs": 6,
+    "arc_self_loops": 0,
+    "arc_duplicates": 2,
+    "route_invalid_refs": 57,
+    "route_disconnected": 161
+  },
+  {
+    "trip_id": "00000034",
+    "track_invalid": 0,
+    "arc_invalid_refs": 2,
+    "arc_self_loops": 0,
+    "arc_duplicates": 4,
+    "route_invalid_refs": 111,
+    "route_disconnected": 452
+  },
+  {
+    "trip_id": "00000035",
+    "track_invalid": 0,
+    "arc_invalid_refs": 4,
+    "arc_self_loops": 2,
+    "arc_duplicates": 38,
+    "route_invalid_refs": 55,
+    "route_disconnected": 385
+  },
+  {
+    "trip_id": "00000036",
+    "track_invalid": 0,
+    "arc_invalid_refs": 4,
+    "arc_self_loops": 0,
+    "arc_duplicates": 0,
+    "route_invalid_refs": 87,
+    "route_disconnected": 155
+  },
+  {
+    "trip_id": "00000037",
+    "track_invalid": 0,
+    "arc_invalid_refs": 2,
+    "arc_self_loops": 0,
+    "arc_duplicates": 2,
+    "route_invalid_refs": 30,
+    "route_disconnected": 154
+  },
+  {
+    "trip_id": "00000038",
+    "track_invalid": 0,
+    "arc_invalid_refs": 4,
+    "arc_self_loops": 2,
+    "arc_duplicates": 1,
+    "route_invalid_refs": 58,
+    "route_disconnected": 211
+  },
+  {
+    "trip_id": "00000039",
+    "track_invalid": 0,
+    "arc_invalid_refs": 2,
+    "arc_self_loops": 0,
+    "arc_duplicates": 0,
+    "route_invalid_refs": 83,
+    "route_disconnected": 159
+  },
+  {
+    "trip_id": "00000041",
+    "track_invalid": 0,
+    "arc_invalid_refs": 3,
+    "arc_self_loops": 0,
+    "arc_duplicates": 2,
+    "route_invalid_refs": 94,
+    "route_disconnected": 321
+  },
+  {
+    "trip_id": "00000042",
+    "track_invalid": 0,
+    "arc_invalid_refs": 7,
+    "arc_self_loops": 0,
+    "arc_duplicates": 0,
+    "route_invalid_refs": 329,
+    "route_disconnected": 1427
+  },
+  {
+    "trip_id": "00000043",
+    "track_invalid": 0,
+    "arc_invalid_refs": 5,
+    "arc_self_loops": 0,
+    "arc_duplicates": 322,
+    "route_invalid_refs": 214,
+    "route_disconnected": 425
+  },
+  {
+    "trip_id": "00000044",
+    "track_invalid": 0,
+    "arc_invalid_refs": 4,
+    "arc_self_loops": 0,
+    "arc_duplicates": 2,
+    "route_invalid_refs": 35,
+    "route_disconnected": 127
+  },
+  {
+    "trip_id": "00000045",
+    "track_invalid": 0,
+    "arc_invalid_refs": 2,
+    "arc_self_loops": 0,
+    "arc_duplicates": 0,
+    "route_invalid_refs": 24,
+    "route_disconnected": 57
+  },
+  {
+    "trip_id": "00000046",
+    "track_invalid": 0,
+    "arc_invalid_refs": 4,
+    "arc_self_loops": 0,
+    "arc_duplicates": 0,
+    "route_invalid_refs": 40,
+    "route_disconnected": 64
+  },
+  {
+    "trip_id": "00000047",
+    "track_invalid": 0,
+    "arc_invalid_refs": 1,
+    "arc_self_loops": 0,
+    "arc_duplicates": 27,
+    "route_invalid_refs": 42,
+    "route_disconnected": 183
+  },
+  {
+    "trip_id": "00000048",
+    "track_invalid": 0,
+    "arc_invalid_refs": 4,
+    "arc_self_loops": 0,
+    "arc_duplicates": 0,
+    "route_invalid_refs": 18,
+    "route_disconnected": 143
+  },
+  {
+    "trip_id": "00000050",
+    "track_invalid": 0,
+    "arc_invalid_refs": 4,
+    "arc_self_loops": 0,
+    "arc_duplicates": 2,
+    "route_invalid_refs": 61,
+    "route_disconnected": 93
+  },
+  {
+    "trip_id": "00000051",
+    "track_invalid": 0,
+    "arc_invalid_refs": 4,
+    "arc_self_loops": 0,
+    "arc_duplicates": 0,
+    "route_invalid_refs": 139,
+    "route_disconnected": 291
+  },
+  {
+    "trip_id": "00000053",
+    "track_invalid": 0,
+    "arc_invalid_refs": 4,
+    "arc_self_loops": 0,
+    "arc_duplicates": 28,
+    "route_invalid_refs": 228,
+    "route_disconnected": 629
+  },
+  {
+    "trip_id": "00000054",
+    "track_invalid": 0,
+    "arc_invalid_refs": 4,
+    "arc_self_loops": 0,
+    "arc_duplicates": 96,
+    "route_invalid_refs": 159,
+    "route_disconnected": 419
+  },
+  {
+    "trip_id": "00000055",
+    "track_invalid": 0,
+    "arc_invalid_refs": 10,
+    "arc_self_loops": 8,
+    "arc_duplicates": 12,
+    "route_invalid_refs": 42,
+    "route_disconnected": 470
+  },
+  {
+    "trip_id": "00000057",
+    "track_invalid": 0,
+    "arc_invalid_refs": 4,
+    "arc_self_loops": 0,
+    "arc_duplicates": 1,
+    "route_invalid_refs": 166,
+    "route_disconnected": 296
+  },
+  {
+    "trip_id": "00000058",
+    "track_invalid": 0,
+    "arc_invalid_refs": 2,
+    "arc_self_loops": 0,
+    "arc_duplicates": 15,
+    "route_invalid_refs": 110,
+    "route_disconnected": 325
+  },
+  {
+    "trip_id": "00000060",
+    "track_invalid": 0,
+    "arc_invalid_refs": 8,
+    "arc_self_loops": 0,
+    "arc_duplicates": 2,
+    "route_invalid_refs": 178,
+    "route_disconnected": 512
+  },
+  {
+    "trip_id": "00000061",
+    "track_invalid": 0,
+    "arc_invalid_refs": 2,
+    "arc_self_loops": 0,
+    "arc_duplicates": 8,
+    "route_invalid_refs": 151,
+    "route_disconnected": 295
+  },
+  {
+    "trip_id": "00000062",
+    "track_invalid": 0,
+    "arc_invalid_refs": 2,
+    "arc_self_loops": 0,
+    "arc_duplicates": 17,
+    "route_invalid_refs": 96,
+    "route_disconnected": 458
+  },
+  {
+    "trip_id": "00000063",
+    "track_invalid": 0,
+    "arc_invalid_refs": 2,
+    "arc_self_loops": 0,
+    "arc_duplicates": 10,
+    "route_invalid_refs": 290,
+    "route_disconnected": 562
+  },
+  {
+    "trip_id": "00000064",
+    "track_invalid": 0,
+    "arc_invalid_refs": 6,
+    "arc_self_loops": 0,
+    "arc_duplicates": 4,
+    "route_invalid_refs": 35,
+    "route_disconnected": 674
+  },
+  {
+    "trip_id": "00000066",
+    "track_invalid": 0,
+    "arc_invalid_refs": 6,
+    "arc_self_loops": 0,
+    "arc_duplicates": 0,
+    "route_invalid_refs": 50,
+    "route_disconnected": 354
+  },
+  {
+    "trip_id": "00000068",
+    "track_invalid": 0,
+    "arc_invalid_refs": 2,
+    "arc_self_loops": 0,
+    "arc_duplicates": 0,
+    "route_invalid_refs": 134,
+    "route_disconnected": 238
+  },
+  {
+    "trip_id": "00000069",
+    "track_invalid": 0,
+    "arc_invalid_refs": 8,
+    "arc_self_loops": 0,
+    "arc_duplicates": 0,
+    "route_invalid_refs": 128,
+    "route_disconnected": 431
+  },
+  {
+    "trip_id": "00000070",
+    "track_invalid": 0,
+    "arc_invalid_refs": 4,
+    "arc_self_loops": 0,
+    "arc_duplicates": 0,
+    "route_invalid_refs": 32,
+    "route_disconnected": 146
+  },
+  {
+    "trip_id": "00000071",
+    "track_invalid": 0,
+    "arc_invalid_refs": 1,
+    "arc_self_loops": 0,
+    "arc_duplicates": 0,
+    "route_invalid_refs": 87,
+    "route_disconnected": 173
+  },
+  {
+    "trip_id": "00000072",
+    "track_invalid": 0,
+    "arc_invalid_refs": 6,
+    "arc_self_loops": 0,
+    "arc_duplicates": 2,
+    "route_invalid_refs": 42,
+    "route_disconnected": 129
+  },
+  {
+    "trip_id": "00000074",
+    "track_invalid": 0,
+    "arc_invalid_refs": 3,
+    "arc_self_loops": 0,
+    "arc_duplicates": 96,
+    "route_invalid_refs": 18,
+    "route_disconnected": 235
+  },
+  {
+    "trip_id": "00000075",
+    "track_invalid": 0,
+    "arc_invalid_refs": 6,
+    "arc_self_loops": 0,
+    "arc_duplicates": 0,
+    "route_invalid_refs": 5,
+    "route_disconnected": 106
+  },
+  {
+    "trip_id": "00000078",
+    "track_invalid": 0,
+    "arc_invalid_refs": 4,
+    "arc_self_loops": 0,
+    "arc_duplicates": 38,
+    "route_invalid_refs": 108,
+    "route_disconnected": 1741
+  },
+  {
+    "trip_id": "00000079",
+    "track_invalid": 0,
+    "arc_invalid_refs": 7,
+    "arc_self_loops": 2,
+    "arc_duplicates": 27,
+    "route_invalid_refs": 71,
+    "route_disconnected": 180
+  },
+  {
+    "trip_id": "00000080",
+    "track_invalid": 0,
+    "arc_invalid_refs": 3,
+    "arc_self_loops": 0,
+    "arc_duplicates": 10,
+    "route_invalid_refs": 58,
+    "route_disconnected": 137
+  },
+  {
+    "trip_id": "00000081",
+    "track_invalid": 0,
+    "arc_invalid_refs": 2,
+    "arc_self_loops": 0,
+    "arc_duplicates": 6,
+    "route_invalid_refs": 618,
+    "route_disconnected": 776
+  },
+  {
+    "trip_id": "00000082",
+    "track_invalid": 0,
+    "arc_invalid_refs": 6,
+    "arc_self_loops": 0,
+    "arc_duplicates": 2,
+    "route_invalid_refs": 88,
+    "route_disconnected": 201
+  },
+  {
+    "trip_id": "00000083",
+    "track_invalid": 0,
+    "arc_invalid_refs": 3,
+    "arc_self_loops": 0,
+    "arc_duplicates": 3,
+    "route_invalid_refs": 29,
+    "route_disconnected": 138
+  },
+  {
+    "trip_id": "00000084",
+    "track_invalid": 0,
+    "arc_invalid_refs": 8,
+    "arc_self_loops": 2,
+    "arc_duplicates": 13,
+    "route_invalid_refs": 74,
+    "route_disconnected": 619
+  },
+  {
+    "trip_id": "00000085",
+    "track_invalid": 0,
+    "arc_invalid_refs": 2,
+    "arc_self_loops": 0,
+    "arc_duplicates": 0,
+    "route_invalid_refs": 45,
+    "route_disconnected": 165
+  },
+  {
+    "trip_id": "00000086",
+    "track_invalid": 0,
+    "arc_invalid_refs": 3,
+    "arc_self_loops": 0,
+    "arc_duplicates": 63,
+    "route_invalid_refs": 201,
+    "route_disconnected": 640
+  },
+  {
+    "trip_id": "00000088",
+    "track_invalid": 0,
+    "arc_invalid_refs": 8,
+    "arc_self_loops": 0,
+    "arc_duplicates": 2,
+    "route_invalid_refs": 18,
+    "route_disconnected": 162
+  },
+  {
+    "trip_id": "00000089",
+    "track_invalid": 0,
+    "arc_invalid_refs": 2,
+    "arc_self_loops": 0,
+    "arc_duplicates": 0,
+    "route_invalid_refs": 189,
+    "route_disconnected": 263
+  },
+  {
+    "trip_id": "00000090",
+    "track_invalid": 0,
+    "arc_invalid_refs": 4,
+    "arc_self_loops": 0,
+    "arc_duplicates": 0,
+    "route_invalid_refs": 137,
+    "route_disconnected": 234
+  },
+  {
+    "trip_id": "00000092",
+    "track_invalid": 0,
+    "arc_invalid_refs": 1,
+    "arc_self_loops": 0,
+    "arc_duplicates": 4,
+    "route_invalid_refs": 522,
+    "route_disconnected": 2205
+  },
+  {
+    "trip_id": "00000093",
+    "track_invalid": 0,
+    "arc_invalid_refs": 4,
+    "arc_self_loops": 0,
+    "arc_duplicates": 17,
+    "route_invalid_refs": 229,
+    "route_disconnected": 544
+  },
+  {
+    "trip_id": "00000095",
+    "track_invalid": 0,
+    "arc_invalid_refs": 2,
+    "arc_self_loops": 0,
+    "arc_duplicates": 0,
+    "route_invalid_refs": 111,
+    "route_disconnected": 301
+  },
+  {
+    "trip_id": "00000096",
+    "track_invalid": 0,
+    "arc_invalid_refs": 6,
+    "arc_self_loops": 0,
+    "arc_duplicates": 3,
+    "route_invalid_refs": 402,
+    "route_disconnected": 454
+  },
+  {
+    "trip_id": "00000097",
+    "track_invalid": 0,
+    "arc_invalid_refs": 4,
+    "arc_self_loops": 0,
+    "arc_duplicates": 0,
+    "route_invalid_refs": 214,
+    "route_disconnected": 443
+  },
+  {
+    "trip_id": "00000098",
+    "track_invalid": 0,
+    "arc_invalid_refs": 2,
+    "arc_self_loops": 0,
+    "arc_duplicates": 10,
+    "route_invalid_refs": 546,
+    "route_disconnected": 990
+  },
+  {
+    "trip_id": "00000099",
+    "track_invalid": 0,
+    "arc_invalid_refs": 4,
+    "arc_self_loops": 2,
+    "arc_duplicates": 7,
+    "route_invalid_refs": 315,
+    "route_disconnected": 884
+  }
+]
