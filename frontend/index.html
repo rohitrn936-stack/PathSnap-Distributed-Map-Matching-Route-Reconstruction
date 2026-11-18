@@ -1,0 +1,322 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PathSnap - Route Reconstruction</title>
+
+    <link rel="stylesheet"
+          href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #f1f5f9;
+            color: #172033;
+        }
+
+        header {
+            background: #14213d;
+            color: white;
+            padding: 22px 35px;
+        }
+
+        header h1 {
+            font-size: 27px;
+            margin-bottom: 6px;
+        }
+
+        header p {
+            color: #cbd5e1;
+        }
+
+        .container {
+            padding: 25px;
+            max-width: 1400px;
+            margin: auto;
+        }
+
+        .topbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+
+        select, button {
+            padding: 11px 16px;
+            border-radius: 7px;
+            border: 1px solid #cbd5e1;
+            font-size: 14px;
+        }
+
+        button {
+            background: #2563eb;
+            color: white;
+            cursor: pointer;
+            border: none;
+        }
+
+        button:hover {
+            background: #1d4ed8;
+        }
+
+        .status {
+            font-size: 14px;
+            color: #64748b;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 17px;
+            margin-bottom: 22px;
+        }
+
+        .card {
+            background: white;
+            padding: 21px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px #0000000d;
+        }
+
+        .card p {
+            color: #64748b;
+            font-size: 14px;
+            margin-bottom: 12px;
+        }
+
+        .card h2 {
+            font-size: 27px;
+            color: #14213d;
+        }
+
+        .map-panel {
+            background: white;
+            padding: 18px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px #0000000d;
+        }
+
+        .map-panel h3 {
+            margin-bottom: 15px;
+        }
+
+        #map {
+            height: 520px;
+            width: 100%;
+            border-radius: 8px;
+        }
+
+        .legend {
+            margin-top: 14px;
+            color: #475569;
+            font-size: 13px;
+        }
+
+        .error {
+            color: #dc2626;
+            margin-top: 15px;
+        }
+
+        @media(max-width: 800px) {
+            .cards {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media(max-width: 500px) {
+            .cards {
+                grid-template-columns: 1fr;
+            }
+
+            #map {
+                height: 400px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>PathSnap</h1>
+    <p>Distributed Map-Matching and Route Reconstruction</p>
+</header>
+
+<div class="container">
+
+    <div class="topbar">
+        <div>
+            <h2>Route Dashboard</h2>
+            <p class="status" id="apiStatus">Connecting to API...</p>
+        </div>
+
+        <div>
+            <select id="tripSelect">
+                <option value="">Select Trip</option>
+            </select>
+
+            <button onclick="loadRoute()">Load Route</button>
+        </div>
+    </div>
+
+    <div class="cards">
+
+        <div class="card">
+            <p>Trip ID</p>
+            <h2 id="tripId">-</h2>
+        </div>
+
+        <div class="card">
+            <p>Total Route Arcs</p>
+            <h2 id="totalArcs">-</h2>
+        </div>
+
+        <div class="card">
+            <p>Total Coordinates</p>
+            <h2 id="totalCoordinates">-</h2>
+        </div>
+
+        <div class="card">
+            <p>Route Connectivity</p>
+            <h2 id="connectivity">-</h2>
+        </div>
+
+    </div>
+
+    <div class="map-panel">
+        <h3>Reconstructed Travel Route</h3>
+
+        <div id="map"></div>
+
+        <div class="legend">
+            <strong>Blue line:</strong> Reconstructed road route
+        </div>
+
+        <p class="error" id="error"></p>
+    </div>
+
+</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+<script>
+    const API = "http://127.0.0.1:8000";
+
+    const map = L.map("map").setView([20, 0], 2);
+
+    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+        attribution: "&copy; OpenStreetMap contributors"
+    }).addTo(map);
+
+    let routeLine = null;
+
+    async function initialize() {
+        try {
+            const health = await fetch(API + "/health");
+
+            if (!health.ok) {
+                throw new Error("API is not responding");
+            }
+
+            document.getElementById("apiStatus").textContent =
+                "API Connected";
+
+            const response = await fetch(API + "/trips");
+            const data = await response.json();
+
+            const select = document.getElementById("tripSelect");
+
+            data.trips.forEach(id => {
+                const option = document.createElement("option");
+                option.value = id;
+                option.textContent = id;
+                select.appendChild(option);
+            });
+
+            if (data.trips.length > 0) {
+                select.value = data.trips[0];
+                await loadRoute();
+            }
+
+        } catch (error) {
+            document.getElementById("apiStatus").textContent =
+                "API Connection Failed";
+
+            document.getElementById("error").textContent =
+                "Cannot connect to backend. Start the FastAPI server first.";
+        }
+    }
+
+    async function loadRoute() {
+        const tripId = document.getElementById("tripSelect").value;
+
+        if (!tripId) return;
+
+        document.getElementById("error").textContent = "";
+
+        try {
+            const response = await fetch(
+                API + "/trips/" + tripId + "/route"
+            );
+
+            if (!response.ok) {
+                throw new Error("Could not load route");
+            }
+
+            const data = await response.json();
+
+            document.getElementById("tripId").textContent =
+                data.trip_id;
+
+            document.getElementById("totalArcs").textContent =
+                data.total_route_arcs.toLocaleString();
+
+            document.getElementById("totalCoordinates").textContent =
+                data.total_coordinates.toLocaleString();
+
+            document.getElementById("connectivity").textContent =
+                data.route_connectivity_percent + "%";
+
+            // API coordinates are [longitude, latitude].
+            // Leaflet requires [latitude, longitude].
+            const points = data.coordinates.map(point => [
+                point[1],
+                point[0]
+            ]);
+
+            if (routeLine) {
+                map.removeLayer(routeLine);
+            }
+
+            routeLine = L.polyline(points, {
+                color: "#2563eb",
+                weight: 4,
+                opacity: 0.85
+            }).addTo(map);
+
+            map.fitBounds(routeLine.getBounds(), {
+                padding: [25, 25]
+            });
+
+        } catch (error) {
+            document.getElementById("error").textContent =
+                "Route loading failed: " + error.message;
+        }
+    }
+
+    initialize();
+</script>
+
+</body>
+</html>
