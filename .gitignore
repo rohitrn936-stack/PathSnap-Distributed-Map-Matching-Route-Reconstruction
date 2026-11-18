@@ -8,3 +8,4 @@ member2_ml/outputs/
 member2_ml/data/*.csv
 *.pyc
 .freebuff/
+__pycache__/
