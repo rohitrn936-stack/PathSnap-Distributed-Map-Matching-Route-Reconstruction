@@ -1,9 +1,0 @@
-{
-  "total_trips": 80,
-  "total_invalid_track_obs": 0,
-  "total_arc_invalid_refs": 315,
-  "total_arc_self_loops": 22,
-  "total_arc_duplicates": 1775,
-  "total_route_invalid_refs": 10257,
-  "total_route_disconnected": 30358
-}
