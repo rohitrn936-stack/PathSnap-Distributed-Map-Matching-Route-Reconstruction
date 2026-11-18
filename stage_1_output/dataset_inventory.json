@@ -1,0 +1,18 @@
+{
+  "training_trips": 80,
+  "student_trips": 10,
+  "file_counts": {
+    "arcs": 90,
+    "nodes": 90,
+    "track": 90,
+    "route": 90
+  },
+  "missing_files": {
+    "training": 0,
+    "student": 0
+  },
+  "empty_files": {
+    "training": 0,
+    "student": 0
+  }
+}

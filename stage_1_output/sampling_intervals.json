@@ -1,0 +1,962 @@
+{
+  "00000001": {
+    "num_observations": 1315,
+    "obs_id_range": [
+      1.0,
+      1358.0
+    ],
+    "num_intervals": 1357.0,
+    "min_interval": 1.0,
+    "max_interval": 16.0,
+    "avg_interval": 1.0327245053272451,
+    "note": "obs_id appears to be sequential integer timestamps"
+  },
+  "00000002": {
+    "num_observations": 7243,
+    "obs_id_range": [
+      1.0,
+      8934.156
+    ],
+    "num_intervals": 8933.156,
+    "min_interval": 0.9999999999999432,
+    "max_interval": 160.0,
+    "avg_interval": 1.233520574426954,
+    "note": "obs_id appears to be sequential integer timestamps"
+  },
+  "00000003": {
+    "num_observations": 821,
+    "obs_id_range": [
+      1.0,
+      824.0
+    ],
+    "num_intervals": 823.0,
+    "min_interval": 1.0,
+    "max_interval": 2.0,
+    "avg_interval": 1.0036585365853659,
+    "note": "obs_id appears to be sequential integer timestamps"
+  },
+  "00000004": {
+    "num_observations": 1064,
+    "obs_id_range": [
+      1.0,
+      5218.0
+    ],
+    "num_intervals": 5217.0,
+    "min_interval": 1.0,
+    "max_interval": 51.0,
+    "avg_interval": 4.907808090310442,
+    "note": "obs_id appears to be sequential integer timestamps"
+  },
+  "00000005": {
+    "num_observations": 1045,
+    "obs_id_range": [
+      1.0,
+      1045.0
+    ],
+    "num_intervals": 1044.0,
+    "min_interval": 1.0,
+    "max_interval": 1.0,
+    "avg_interval": 1.0,
+    "note": "obs_id appears to be sequential integer timestamps"
+  },
+  "00000006": {
+    "num_observations": 1450,
+    "obs_id_range": [
+      693.0,
+      2795.0
+    ],
+    "num_intervals": 2102.0,
+    "min_interval": 1.0,
+    "max_interval": 301.0,
+    "avg_interval": 1.4506556245686681,
+    "note": "obs_id appears to be sequential integer timestamps"
+  },
+  "00000008": {
+    "num_observations": 3093,
+    "obs_id_range": [
+      1.0,
+      3094.0
+    ],
+    "num_intervals": 3093.0,
+    "min_interval": 1.0,
+    "max_interval": 2.0,
+    "avg_interval": 1.0003234152652005,
+    "note": "obs_id appears to be sequential integer timestamps"
+  },
+  "00000010": {
+    "num_observations": 2711,
+    "obs_id_range": [
+      1.0,
+      2711.0
+    ],
+    "num_intervals": 2710.0,
+    "min_interval": 1.0,
+    "max_interval": 1.0,
+    "avg_interval": 1.0,
+    "note": "obs_id appears to be sequential integer timestamps"
+  },
+  "00000011": {
+    "num_observations": 2828,
+    "obs_id_range": [
+      1.0,
+      3736.0
+    ],
+    "num_intervals": 3735.0,
+    "min_interval": 1.0,
+    "max_interval": 909.0,
+    "avg_interval": 1.3211885390873719,
+    "note": "obs_id appears to be sequential integer timestamps"
+  },
+  "00000012": {
+    "num_observations": 1608,
+    "obs_id_range": [
+      1.0,
+      1609.0
+    ],
+    "num_intervals": 1608.0,
+    "min_interval": 1.0,
+    "max_interval": 2.0,
+    "avg_interval": 1.000622277535781,
+    "note": "obs_id appears to be sequential integer timestamps"
+  },
+  "00000013": {
+    "num_observations": 2580,
+    "obs_id_range": [
+      1.0,
+      2833.0
+    ],
+    "num_intervals": 2832.0,
+    "min_interval": 1.0,
+    "max_interval": 8.0,
+    "avg_interval": 1.0981000387747188,
+    "note": "obs_id appears to be sequential integer timestamps"
+  },
+  "00000014": {
+    "num_observations": 448,
+    "obs_id_range": [
+      2.0,
+      720.0
+    ],
+    "num_intervals": 718.0,
+    "min_interval": 1.0,
+    "max_interval": 72.0,
+    "avg_interval": 1.6062639821029083,
+    "note": "obs_id appears to be sequential integer timestamps"
+  },
+  "00000016": {
+    "num_observations": 1305,
+    "obs_id_range": [
+      1.0,
+      1305.0
+    ],
+    "num_intervals": 1304.0,
+    "min_interval": 1.0,
+    "max_interval": 1.0,
+    "avg_interval": 1.0,
+    "note": "obs_id appears to be sequential integer timestamps"
+  },
+  "00000018": {
+    "num_observations": 379,
+    "obs_id_range": [
+      1.0,
+      452.0
+    ],
+    "num_intervals": 451.0,
+    "min_interval": 1.0,
+    "max_interval": 3.0,
+    "avg_interval": 1.193121693121693,
+    "note": "obs_id appears to be sequential integer timestamps"
+  },
+  "00000019": {
+    "num_observations": 2354,
+    "obs_id_range": [
+      1.0,
+      2354.0
+    ],
+    "num_intervals": 2353.0,
+    "min_interval": 1.0,
+    "max_interval": 1.0,
+    "avg_interval": 1.0,
+    "note": "obs_id appears to be sequential integer timestamps"
+  },
+  "00000020": {
+    "num_observations": 2353,
+    "obs_id_range": [
+      1.0,
+      2353.0
+    ],
+    "num_intervals": 2352.0,
+    "min_interval": 1.0,
+    "max_interval": 1.0,
+    "avg_interval": 1.0,
+    "note": "obs_id appears to be sequential integer timestamps"
+  },
+  "00000021": {
+    "num_observations": 15783,
+    "obs_id_range": [
+      2.0,
+      18607.0
+    ],
+    "num_intervals": 18605.0,
+    "min_interval": 1.0,
+    "max_interval": 2161.0,
+    "avg_interval": 1.178874667342542,
+    "note": "obs_id appears to be sequential integer timestamps"
+  },
+  "00000022": {
+    "num_observations": 474,
+    "obs_id_range": [
+      90.0,
+      1527.0
+    ],
+    "num_intervals": 1437.0,
+    "min_interval": 1.0,
+    "max_interval": 22.0,
+    "avg_interval": 3.0380549682875264,
+    "note": "obs_id appears to be sequential integer timestamps"
+  },
+  "00000024": {
+    "num_observations": 801,
+    "obs_id_range": [
+      1.0,
+      1542.0
+    ],
+    "num_intervals": 1541.0,
+    "min_interval": 1.0,
+    "max_interval": 458.0,
+    "avg_interval": 1.92625,
+    "note": "obs_id appears to be sequential integer timestamps"
+  },
+  "00000025": {
+    "num_observations": 1179,
+    "obs_id_range": [
+      2.0,
+      1541.0
+    ],
+    "num_intervals": 1539.0,
+    "min_interval": 1.0,
+    "max_interval": 2.0,
+    "avg_interval": 1.3064516129032258,
+    "note": "obs_id appears to be sequential integer timestamps"
+  },
+  "00000026": {
+    "num_observations": 361,
+    "obs_id_range": [
+      1.0,
+      894.0
+    ],
+    "num_intervals": 893.0,
+    "min_interval": 1.0,
+    "max_interval": 17.0,
+    "avg_interval": 2.4805555555555556,
+    "note": "obs_id appears to be sequential integer timestamps"
+  },
+  "00000027": {
+    "num_observations": 694,
+    "obs_id_range": [
+      1.0,
+      708.0
+    ],
+    "num_intervals": 707.0,
+    "min_interval": 1.0,
+    "max_interval": 2.0,
+    "avg_interval": 1.02020202020202,
+    "note": "obs_id appears to be sequential integer timestamps"
+  },
+  "00000028": {
+    "num_observations": 3565,
+    "obs_id_range": [
+      1.0,
+      4135.0
+    ],
+    "num_intervals": 4134.0,
+    "min_interval": 1.0,
+    "max_interval": 196.0,
+    "avg_interval": 1.15993265993266,
+    "note": "obs_id appears to be sequential integer timestamps"
+  },
+  "00000029": {
+    "num_observations": 733,
+    "obs_id_range": [
+      1.0,
+      733.0
+    ],
+    "num_intervals": 732.0,
+    "min_interval": 1.0,
+    "max_interval": 1.0,
+    "avg_interval": 1.0,
+    "note": "obs_id appears to be sequential integer timestamps"
+  },
+  "00000031": {
+    "num_observations": 4245,
+    "obs_id_range": [
+      1.0,
+      4245.0
+    ],
+    "num_intervals": 4244.0,
+    "min_interval": 1.0,
+    "max_interval": 1.0,
+    "avg_interval": 1.0,
+    "note": "obs_id appears to be sequential integer timestamps"
+  },
+  "00000032": {
+    "num_observations": 2464,
+    "obs_id_range": [
+      2.0,
+      2830.0
+    ],
+    "num_intervals": 2828.0,
+    "min_interval": 1.0,
+    "max_interval": 41.0,
+    "avg_interval": 1.1481932602517255,
+    "note": "obs_id appears to be sequential integer timestamps"
+  },
+  "00000033": {
+    "num_observations": 5844,
+    "obs_id_range": [
+      1.0,
+      6253.0
+    ],
+    "num_intervals": 6252.0,
+    "min_interval": 1.0,
+    "max_interval": 3.0,
+    "avg_interval": 1.0699982885504022,
+    "note": "obs_id appears to be sequential integer timestamps"
+  },
+  "00000034": {
+    "num_observations": 3614,
+    "obs_id_range": [
+      2.0,
+      3857.0
+    ],
+    "num_intervals": 3855.0,
+    "min_interval": 1.0,
+    "max_interval": 15.0,
+    "avg_interval": 1.0669803487406588,
+    "note": "obs_id appears to be sequential integer timestamps"
+  },
+  "00000035": {
+    "num_observations": 1643,
+    "obs_id_range": [
+      1.0,
+      1643.0
+    ],
+    "num_intervals": 1642.0,
+    "min_interval": 1.0,
+    "max_interval": 1.0,
+    "avg_interval": 1.0,
+    "note": "obs_id appears to be sequential integer timestamps"
+  },
+  "00000036": {
+    "num_observations": 1368,
+    "obs_id_range": [
+      1.0,
+      1368.0
+    ],
+    "num_intervals": 1367.0,
+    "min_interval": 1.0,
+    "max_interval": 1.0,
+    "avg_interval": 1.0,
+    "note": "obs_id appears to be sequential integer timestamps"
+  },
+  "00000037": {
+    "num_observations": 677,
+    "obs_id_range": [
+      1.0,
+      934.0
+    ],
+    "num_intervals": 933.0,
+    "min_interval": 1.0,
+    "max_interval": 52.0,
+    "avg_interval": 1.3801775147928994,
+    "note": "obs_id appears to be sequential integer timestamps"
+  },
+  "00000038": {
+    "num_observations": 1287,
+    "obs_id_range": [
+      1.0,
+      1452.0
+    ],
+    "num_intervals": 1451.0,
+    "min_interval": 1.0,
+    "max_interval": 20.0,
+    "avg_interval": 1.1283048211508553,
+    "note": "obs_id appears to be sequential integer timestamps"
+  },
+  "00000039": {
+    "num_observations": 363,
+    "obs_id_range": [
+      1.0,
+      887.0
+    ],
+    "num_intervals": 886.0,
+    "min_interval": 1.0,
+    "max_interval": 10.0,
+    "avg_interval": 2.447513812154696,
+    "note": "obs_id appears to be sequential integer timestamps"
+  },
+  "00000041": {
+    "num_observations": 1019,
+    "obs_id_range": [
+      1.0,
+      1121.0
+    ],
+    "num_intervals": 1120.0,
+    "min_interval": 1.0,
+    "max_interval": 89.0,
+    "avg_interval": 1.100196463654224,
+    "note": "obs_id appears to be sequential integer timestamps"
+  },
+  "00000042": {
+    "num_observations": 7739,
+    "obs_id_range": [
+      1.0,
+      12378.0
+    ],
+    "num_intervals": 12377.0,
+    "min_interval": 1.0,
+    "max_interval": 670.0,
+    "avg_interval": 1.599508917032825,
+    "note": "obs_id appears to be sequential integer timestamps"
+  },
+  "00000043": {
+    "num_observations": 2322,
+    "obs_id_range": [
+      1.0,
+      2643.0
+    ],
+    "num_intervals": 2642.0,
+    "min_interval": 1.0,
+    "max_interval": 230.0,
+    "avg_interval": 1.1383024558380008,
+    "note": "obs_id appears to be sequential integer timestamps"
+  },
+  "00000044": {
+    "num_observations": 546,
+    "obs_id_range": [
+      1.0,
+      981.0
+    ],
+    "num_intervals": 980.0,
+    "min_interval": 1.0,
+    "max_interval": 341.0,
+    "avg_interval": 1.798165137614679,
+    "note": "obs_id appears to be sequential integer timestamps"
+  },
+  "00000045": {
+    "num_observations": 640,
+    "obs_id_range": [
+      1.0,
+      640.0
+    ],
+    "num_intervals": 639.0,
+    "min_interval": 1.0,
+    "max_interval": 1.0,
+    "avg_interval": 1.0,
+    "note": "obs_id appears to be sequential integer timestamps"
+  },
+  "00000046": {
+    "num_observations": 1401,
+    "obs_id_range": [
+      21.0,
+      2321.0
+    ],
+    "num_intervals": 2300.0,
+    "min_interval": 1.0,
+    "max_interval": 22.0,
+    "avg_interval": 1.6428571428571428,
+    "note": "obs_id appears to be sequential integer timestamps"
+  },
+  "00000047": {
+    "num_observations": 1272,
+    "obs_id_range": [
+      1.0,
+      1272.0
+    ],
+    "num_intervals": 1271.0,
+    "min_interval": 1.0,
+    "max_interval": 1.0,
+    "avg_interval": 1.0,
+    "note": "obs_id appears to be sequential integer timestamps"
+  },
+  "00000048": {
+    "num_observations": 1240,
+    "obs_id_range": [
+      1.0,
+      1243.0
+    ],
+    "num_intervals": 1242.0,
+    "min_interval": 1.0,
+    "max_interval": 4.0,
+    "avg_interval": 1.0024213075060533,
+    "note": "obs_id appears to be sequential integer timestamps"
+  },
+  "00000050": {
+    "num_observations": 518,
+    "obs_id_range": [
+      1.0,
+      518.0
+    ],
+    "num_intervals": 517.0,
+    "min_interval": 1.0,
+    "max_interval": 1.0,
+    "avg_interval": 1.0,
+    "note": "obs_id appears to be sequential integer timestamps"
+  },
+  "00000051": {
+    "num_observations": 984,
+    "obs_id_range": [
+      1.0,
+      990.0
+    ],
+    "num_intervals": 989.0,
+    "min_interval": 1.0,
+    "max_interval": 2.0,
+    "avg_interval": 1.0061037639877926,
+    "note": "obs_id appears to be sequential integer timestamps"
+  },
+  "00000053": {
+    "num_observations": 1304,
+    "obs_id_range": [
+      1.0,
+      1320.0
+    ],
+    "num_intervals": 1319.0,
+    "min_interval": 1.0,
+    "max_interval": 10.0,
+    "avg_interval": 1.012279355333845,
+    "note": "obs_id appears to be sequential integer timestamps"
+  },
+  "00000054": {
+    "num_observations": 19313,
+    "obs_id_range": [
+      1.0,
+      19524.0
+    ],
+    "num_intervals": 19523.0,
+    "min_interval": 1.0,
+    "max_interval": 79.0,
+    "avg_interval": 1.0109258492129245,
+    "note": "obs_id appears to be sequential integer timestamps"
+  },
+  "00000055": {
+    "num_observations": 2472,
+    "obs_id_range": [
+      1.0,
+      2659.0
+    ],
+    "num_intervals": 2658.0,
+    "min_interval": 1.0,
+    "max_interval": 184.0,
+    "avg_interval": 1.075677863213274,
+    "note": "obs_id appears to be sequential integer timestamps"
+  },
+  "00000057": {
+    "num_observations": 1645,
+    "obs_id_range": [
+      1.0,
+      1670.0
+    ],
+    "num_intervals": 1669.0,
+    "min_interval": 1.0,
+    "max_interval": 13.0,
+    "avg_interval": 1.0152068126520681,
+    "note": "obs_id appears to be sequential integer timestamps"
+  },
+  "00000058": {
+    "num_observations": 599,
+    "obs_id_range": [
+      1.0,
+      742.0
+    ],
+    "num_intervals": 741.0,
+    "min_interval": 1.0,
+    "max_interval": 16.0,
+    "avg_interval": 1.2391304347826086,
+    "note": "obs_id appears to be sequential integer timestamps"
+  },
+  "00000060": {
+    "num_observations": 854,
+    "obs_id_range": [
+      17.0,
+      1043.0
+    ],
+    "num_intervals": 1026.0,
+    "min_interval": 1.0,
+    "max_interval": 27.0,
+    "avg_interval": 1.2028135990621336,
+    "note": "obs_id appears to be sequential integer timestamps"
+  },
+  "00000061": {
+    "num_observations": 1430,
+    "obs_id_range": [
+      1.0,
+      1435.0
+    ],
+    "num_intervals": 1434.0,
+    "min_interval": 1.0,
+    "max_interval": 3.0,
+    "avg_interval": 1.0034989503149054,
+    "note": "obs_id appears to be sequential integer timestamps"
+  },
+  "00000062": {
+    "num_observations": 3378,
+    "obs_id_range": [
+      11.0,
+      3979.0
+    ],
+    "num_intervals": 3968.0,
+    "min_interval": 1.0,
+    "max_interval": 56.0,
+    "avg_interval": 1.1750074030204323,
+    "note": "obs_id appears to be sequential integer timestamps"
+  },
+  "00000063": {
+    "num_observations": 2781,
+    "obs_id_range": [
+      3.0,
+      2924.0
+    ],
+    "num_intervals": 2921.0,
+    "min_interval": 1.0,
+    "max_interval": 2.0,
+    "avg_interval": 1.0507194244604317,
+    "note": "obs_id appears to be sequential integer timestamps"
+  },
+  "00000064": {
+    "num_observations": 2093,
+    "obs_id_range": [
+      1.0,
+      2167.0
+    ],
+    "num_intervals": 2166.0,
+    "min_interval": 1.0,
+    "max_interval": 4.0,
+    "avg_interval": 1.0353728489483747,
+    "note": "obs_id appears to be sequential integer timestamps"
+  },
+  "00000066": {
+    "num_observations": 4325,
+    "obs_id_range": [
+      1.0,
+      4325.0
+    ],
+    "num_intervals": 4324.0,
+    "min_interval": 1.0,
+    "max_interval": 1.0,
+    "avg_interval": 1.0,
+    "note": "obs_id appears to be sequential integer timestamps"
+  },
+  "00000068": {
+    "num_observations": 747,
+    "obs_id_range": [
+      13.0,
+      797.0
+    ],
+    "num_intervals": 784.0,
+    "min_interval": 1.0,
+    "max_interval": 12.0,
+    "avg_interval": 1.0509383378016086,
+    "note": "obs_id appears to be sequential integer timestamps"
+  },
+  "00000069": {
+    "num_observations": 2067,
+    "obs_id_range": [
+      1.0,
+      5559.0
+    ],
+    "num_intervals": 5558.0,
+    "min_interval": 1.0,
+    "max_interval": 2658.0,
+    "avg_interval": 2.690222652468538,
+    "note": "obs_id appears to be sequential integer timestamps"
+  },
+  "00000070": {
+    "num_observations": 2076,
+    "obs_id_range": [
+      2.0,
+      2307.0
+    ],
+    "num_intervals": 2305.0,
+    "min_interval": 1.0,
+    "max_interval": 152.0,
+    "avg_interval": 1.110843373493976,
+    "note": "obs_id appears to be sequential integer timestamps"
+  },
+  "00000071": {
+    "num_observations": 850,
+    "obs_id_range": [
+      1.0,
+      1176.2
+    ],
+    "num_intervals": 1175.2,
+    "min_interval": 1.0,
+    "max_interval": 6.0000000000000036,
+    "avg_interval": 1.3842167255594817,
+    "note": "obs_id appears to be sequential integer timestamps"
+  },
+  "00000072": {
+    "num_observations": 969,
+    "obs_id_range": [
+      1.0,
+      969.0
+    ],
+    "num_intervals": 968.0,
+    "min_interval": 1.0,
+    "max_interval": 1.0,
+    "avg_interval": 1.0,
+    "note": "obs_id appears to be sequential integer timestamps"
+  },
+  "00000074": {
+    "num_observations": 1929,
+    "obs_id_range": [
+      1.0,
+      2130.0
+    ],
+    "num_intervals": 2129.0,
+    "min_interval": 1.0,
+    "max_interval": 24.0,
+    "avg_interval": 1.104253112033195,
+    "note": "obs_id appears to be sequential integer timestamps"
+  },
+  "00000075": {
+    "num_observations": 1628,
+    "obs_id_range": [
+      1.0,
+      1638.0
+    ],
+    "num_intervals": 1637.0,
+    "min_interval": 1.0,
+    "max_interval": 2.0,
+    "avg_interval": 1.0061462814996927,
+    "note": "obs_id appears to be sequential integer timestamps"
+  },
+  "00000078": {
+    "num_observations": 2909,
+    "obs_id_range": [
+      3.0,
+      57839.0
+    ],
+    "num_intervals": 57836.0,
+    "min_interval": 1.0,
+    "max_interval": 52810.0,
+    "avg_interval": 19.888583218707016,
+    "note": "obs_id appears to be sequential integer timestamps"
+  },
+  "00000079": {
+    "num_observations": 689,
+    "obs_id_range": [
+      1.0,
+      689.0
+    ],
+    "num_intervals": 688.0,
+    "min_interval": 1.0,
+    "max_interval": 1.0,
+    "avg_interval": 1.0,
+    "note": "obs_id appears to be sequential integer timestamps"
+  },
+  "00000080": {
+    "num_observations": 2510,
+    "obs_id_range": [
+      1.0,
+      2752.0
+    ],
+    "num_intervals": 2751.0,
+    "min_interval": 1.0,
+    "max_interval": 59.0,
+    "avg_interval": 1.0964527700278996,
+    "note": "obs_id appears to be sequential integer timestamps"
+  },
+  "00000081": {
+    "num_observations": 3224,
+    "obs_id_range": [
+      3.0,
+      8484.0
+    ],
+    "num_intervals": 8481.0,
+    "min_interval": 1.0,
+    "max_interval": 536.0,
+    "avg_interval": 2.631399317406143,
+    "note": "obs_id appears to be sequential integer timestamps"
+  },
+  "00000082": {
+    "num_observations": 4268,
+    "obs_id_range": [
+      1.0,
+      4268.0
+    ],
+    "num_intervals": 4267.0,
+    "min_interval": 1.0,
+    "max_interval": 1.0,
+    "avg_interval": 1.0,
+    "note": "obs_id appears to be sequential integer timestamps"
+  },
+  "00000083": {
+    "num_observations": 1507,
+    "obs_id_range": [
+      1.0,
+      1507.0
+    ],
+    "num_intervals": 1506.0,
+    "min_interval": 1.0,
+    "max_interval": 1.0,
+    "avg_interval": 1.0,
+    "note": "obs_id appears to be sequential integer timestamps"
+  },
+  "00000084": {
+    "num_observations": 16031,
+    "obs_id_range": [
+      1.0,
+      16525.0
+    ],
+    "num_intervals": 16524.0,
+    "min_interval": 1.0,
+    "max_interval": 312.0,
+    "avg_interval": 1.0308172177167811,
+    "note": "obs_id appears to be sequential integer timestamps"
+  },
+  "00000085": {
+    "num_observations": 1092,
+    "obs_id_range": [
+      1.0,
+      1334.0
+    ],
+    "num_intervals": 1333.0,
+    "min_interval": 1.0,
+    "max_interval": 70.0,
+    "avg_interval": 1.221814848762603,
+    "note": "obs_id appears to be sequential integer timestamps"
+  },
+  "00000086": {
+    "num_observations": 4143,
+    "obs_id_range": [
+      1.0,
+      4143.0
+    ],
+    "num_intervals": 4142.0,
+    "min_interval": 1.0,
+    "max_interval": 1.0,
+    "avg_interval": 1.0,
+    "note": "obs_id appears to be sequential integer timestamps"
+  },
+  "00000088": {
+    "num_observations": 876,
+    "obs_id_range": [
+      1.0,
+      1475.0
+    ],
+    "num_intervals": 1474.0,
+    "min_interval": 1.0,
+    "max_interval": 232.0,
+    "avg_interval": 1.6845714285714286,
+    "note": "obs_id appears to be sequential integer timestamps"
+  },
+  "00000089": {
+    "num_observations": 1228,
+    "obs_id_range": [
+      1.0,
+      2082.0
+    ],
+    "num_intervals": 2081.0,
+    "min_interval": 1.0,
+    "max_interval": 193.0,
+    "avg_interval": 1.6960065199674002,
+    "note": "obs_id appears to be sequential integer timestamps"
+  },
+  "00000090": {
+    "num_observations": 536,
+    "obs_id_range": [
+      4.0,
+      154034.0
+    ],
+    "num_intervals": 154030.0,
+    "min_interval": 1.0,
+    "max_interval": 153064.0,
+    "avg_interval": 287.9065420560748,
+    "note": "obs_id appears to be sequential integer timestamps"
+  },
+  "00000092": {
+    "num_observations": 7892,
+    "obs_id_range": [
+      1.0,
+      7892.0
+    ],
+    "num_intervals": 7891.0,
+    "min_interval": 1.0,
+    "max_interval": 1.0,
+    "avg_interval": 1.0,
+    "note": "obs_id appears to be sequential integer timestamps"
+  },
+  "00000093": {
+    "num_observations": 1211,
+    "obs_id_range": [
+      1.0,
+      1244.0
+    ],
+    "num_intervals": 1243.0,
+    "min_interval": 1.0,
+    "max_interval": 6.0,
+    "avg_interval": 1.0272727272727273,
+    "note": "obs_id appears to be sequential integer timestamps"
+  },
+  "00000095": {
+    "num_observations": 1551,
+    "obs_id_range": [
+      1.0,
+      1556.0
+    ],
+    "num_intervals": 1555.0,
+    "min_interval": 1.0,
+    "max_interval": 2.0,
+    "avg_interval": 1.0032258064516129,
+    "note": "obs_id appears to be sequential integer timestamps"
+  },
+  "00000096": {
+    "num_observations": 3271,
+    "obs_id_range": [
+      1.0,
+      3271.0
+    ],
+    "num_intervals": 3270.0,
+    "min_interval": 1.0,
+    "max_interval": 1.0,
+    "avg_interval": 1.0,
+    "note": "obs_id appears to be sequential integer timestamps"
+  },
+  "00000097": {
+    "num_observations": 1740,
+    "obs_id_range": [
+      1.0,
+      1752.003
+    ],
+    "num_intervals": 1751.003,
+    "min_interval": 0.9999999999998863,
+    "max_interval": 2.0,
+    "avg_interval": 1.0069022426682002,
+    "note": "obs_id appears to be sequential integer timestamps"
+  },
+  "00000098": {
+    "num_observations": 5584,
+    "obs_id_range": [
+      1.0,
+      7195.0
+    ],
+    "num_intervals": 7194.0,
+    "min_interval": 1.0,
+    "max_interval": 50.0,
+    "avg_interval": 1.2885545405695862,
+    "note": "obs_id appears to be sequential integer timestamps"
+  },
+  "00000099": {
+    "num_observations": 2322,
+    "obs_id_range": [
+      1.0,
+      2356.0
+    ],
+    "num_intervals": 2355.0,
+    "min_interval": 1.0,
+    "max_interval": 25.0,
+    "avg_interval": 1.014648858250754,
+    "note": "obs_id appears to be sequential integer timestamps"
+  }
+}
