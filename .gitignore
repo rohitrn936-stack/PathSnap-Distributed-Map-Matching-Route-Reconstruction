@@ -1,3 +1,9 @@
 datasets/
 .freebuff/
 Main Guidelines.pdf/
+**/.venv/
+**/__pycache__/
+**/.pytest_cache/
+member2_ml/outputs/
+member2_ml/data/*.csv
+*.pyc
