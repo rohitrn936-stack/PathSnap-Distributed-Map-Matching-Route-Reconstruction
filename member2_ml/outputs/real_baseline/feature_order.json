@@ -1,0 +1,8 @@
+[
+  "candidate_rank",
+  "distance_m",
+  "segment_fraction",
+  "heading_diff_deg",
+  "gps_speed_mps",
+  "time_gap_s"
+]
