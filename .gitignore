@@ -10,3 +10,4 @@ member2_ml/data/*.csv
 .freebuff/
 __pycache__/
 datasets/
+.member1_worktree/
