@@ -1,0 +1,22 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.idea/
+.vscode/
+*.log
+
+# Raw dataset
+data/
+
+# Generated candidate files
+candidate_results/
+candidate_results_improved/
+candidates_*.csv
+
+# Generated route files
+results/batch_reconstructed/reconstructed_*.csv
+results/batch_connected/connected_route_*.csv
+results/batch_hmm/
+
