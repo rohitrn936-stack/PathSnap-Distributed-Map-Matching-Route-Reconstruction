@@ -9,3 +9,4 @@ member2_ml/data/*.csv
 *.pyc
 .freebuff/
 __pycache__/
+datasets/
